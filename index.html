@@ -35,150 +35,11 @@
 
 
 <body>
-    <!-- <div class="video-compare-container" style="width: 100%; display: flex; flex-direction: column; align-items: center;">
-        <h6 class="caption" style="margin-bottom: 10px;">A living room has a coffee table with a basket on it, a wooden floor, a TV on a TV stand, and a sofa with an astronaut sitting on it</h6>
-        <video class="video lazy" loop playsinline autoplay muted style="width: 30%;">
-            <source data-src="static/top.mp4" type="video/mp4"></source>
-        </video>
-    </div> -->
-    <div class="container" style="max-width: 768px;">
-        
-    </div>
-    
     <div class="highlight-clean" style="padding-bottom: 10px;">
         <div class="container" style="max-width: 1024px; margin-bottom: 20px;">
             <h1 class="text-center"><b>GALA3D</b>: Anonymous Rebuttal</h1>
         </div>
-
-
-        <div class="container" style="max-width: 980px; margin-bottom: 20px;">
-            <div class="buttons" style="margin-top: 8px; margin-bottom: 8px;">
-                <a class="btn btn-light" role="button" href="https://arxiv.org/abs/2402.07207">
-                    <svg style="width:24px;height:24px;margin-left:-12px;margin-right:12px" viewBox="0 0 24 24">
-                        <path fill="currentColor" d="M16 0H8C6.9 0 6 .9 6 2V18C6 19.1 6.9 20 8 20H20C21.1 20 22 19.1 22 18V6L16 0M20 18H8V2H15V7H20V18M4 4V22H20V24H4C2.9 24 2 23.1 2 22V4H4M10 10V12H18V10H10M10 14V16H15V14H10Z"></path>
-                    </svg>Paper
-                </a>
-                <a class="btn btn-light" role="button" href="https://github.com/VDIGPKU/GALA3D">
-                    <svg xmlns="http://www.w3.org/2000/svg" style="width:24px;height:24px;margin-left:-12px;margin-right:12px" viewBox="0 0 24 24">
-                        <path d="M12 0c-6.626 0-12 5.373-12 12 0 5.302 3.438 9.8 8.207 11.387.599.111.793-.261.793-.577v-2.234c-3.338.726-4.033-1.416-4.033-1.416-.546-1.387-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 
-                                1.205.084 1.839 1.237 1.839 1.237 1.07 1.834 2.807 1.304 3.492.997.107-.775.418-1.305.762-1.604-2.665-.305-5.467-1.334-5.467-5.931 0-1.311.469-2.381 1.236-3.221-.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 
-                                3.301 1.23.957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404 2.291-1.552 3.297-1.23 3.297-1.23.653 1.653.242 2.874.118 3.176.77.84 1.235 1.911 1.235 3.221 0 4.609-2.807 5.624-5.479 5.921.43.372.823 1.102.823 
-                                2.222v3.293c0 .319.192.694.801.576 4.765-1.589 8.199-6.086 8.199-11.386 0-6.627-5.373-12-12-12z"></path>
-                    </svg>
-                    Code
-                </a>
-                <a class="btn btn-light" role="button" href="https://github.com/VDIGPKU/GALA3D">
-                    <img src="./static/hf-logo.png" alt="" style="width:24px;height:24px;margin-left:-12px;margin-right:12px">
-                    Huggingface
-                </a>
-            </div>
     </div>
-
-    <hr class="divider" />
-
-    <!-- <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Abstract</h2>
-                <p>
-                    In this paper, we propose a generative 3D Gaussians with Layout-guided control, GALA3D, for effective compositional text-to-3D generation in a user-friendly way. To this end, we utilize large language models (LLMs) for generating initial layout descriptions and introduce a layout-guided 3D Gaussian representation for 3D content generation with adaptive geometric constraints. We then propose an object-scene compositional optimization mechanism with conditioned diffusion to collaboratively generate realistic 3D scenes with consistent geometry, texture, scale, and accurate interactions among multiple objects while simultaneously adjusting the coarse layout priors extracted from the LLMs to align with the generated scene. Experiments show that GALA3D presents a user-friendly, end-to-end framework for state-of-the-art scene-level 3D content generation and controllable editing while ensuring the high fidelity of object-level entities within the scene. Source codes and models will be available.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container" style="max-width: 768px;">
-        <div class="row captioned_videos">
-            <div class="col-md-12">
-                <img src="static/teaser.png" alt="architecture" style="width: 100%">
-                
-            </div>
-        </div>
-    </div> -->
-
-    <!-- <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Framework</h2>
-                <p>
-                    Overall framework of GALA3D. Given a textual description, GALA3D first creates a coarse layout using LLMs. The layout is then utilized to construct the Layout-guided Gaussian Representation, incorporating Adaptive Geometry Control to constrain the Gaussians' geometric shape and spatial distribution. Subsequently, Compositional Diffusions are employed to optimize the 3D Gaussians using text-to-image priors compositionally. Simultaneously, the Layout Refinement module refines the initial layout provided by LLMs, enabling a better adherence to real-world scene constraints.
-                </p>
-            </div>
-        </div>
-    </div>
-    <div class="container" style="max-width: 768px;">
-        <div class="row captioned_videos">
-            <div class="col-md-12">
-                <img src="static/framework.png" alt="architecture" style="width: 100%">
-
-            </div>
-        </div>
-    </div> -->
-
-
-    <!-- <hr class="divider" /> -->
-    <!-- <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-md-12">
-                <h2>Training Process</h2>
-                <p>A 3D instance can be generated within 15 minutes on one GPU, much faster than previous methods, and can be directly rendered in real time.</p>
-            </div>
-        </div>
-        <div class="compositional captioned_videos" style="display: flex; justify-content: center;">
-            <video class="video lazy" autoplay loop playsinline muted style="width: 60%;">
-                <source data-src="static/output_gs_1124.webm" type="video/mp4"></source>
-            </video>
-            <video class="video lazy" autoplay loop playsinline muted style="width: 60%;">
-                <source data-src="static/output_ax_1124.webm" type="video/mp4"></source>
-            </video>
-        </div>
-    </div> -->
-
-
-    <!-- <hr class="divider" />
-    <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Video</h2>
-            </div>
-
-            <div class="container" style="max-width: 768px;">
-                <div class="row captioned_videos">
-                    <div class="col-md-12">
-                        <div style="position:relative;padding-top:56.25%;">
-                            <iframe src="https://www.youtube.com/embed/GNzlUdQ1RBQ" allowfullscreen style="position:absolute;top:0;left:0;width:100%;height:100%;"></iframe>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
-
-    
-
-    <!-- <hr class="divider" />
-    <div class="container" style="max-width: 768px;">
-        <div class="row">
-            <div class="col-sm-12">
-                <h2>Comparison Results</h2>
-                <p>Qualitative comparisons between our method and 
-                    <a href="https://pals.ttic.edu/p/score-jacobian-chaining">SJC</a>, 
-                    <a href="https://ml.cs.tsinghua.edu.cn/prolificdreamer/">ProlificDreamer</a>, 
-                    <a href="https://github.com/bytedance/MVDream">MVDream</a>, 
-                    <a href="https://dreamgaussian.github.io/">DreamGaussian</a>, 
-                    <a href="https://taoranyi.com/ gaussiandreamer/">GaussianDreamer</a>, 
-                    <a href="https://gsgen3d.github.io/">GSGEN</a>, and 
-                    <a href="https://github.com/DanaCohen95/Set-the-Scene">Set-the-Scene</a>.</a></p>
-            </div>
-
-            <div class="container" style="max-width: 768px;">
-                <div class="row captioned_videos">
-                    <div class="col-md-12">
-                        <img src="static/compare.png" alt="architecture" style="width: 100%">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div> -->
 
     <hr class="divider" />
     <div class="container" style="max-width: 768px;">
@@ -213,33 +74,6 @@
                     </video>
                 </div>
             </div>
-            <!-- <div class="col-4">
-                <div class="video-compare-container" style="width: 100%">
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source data-src="dowm/astronaut_horse.mp4" type="video/mp4"></source>
-                    </video>
-                    <h6 class="caption">An astronaut riding a horse</h6>
-                </div>
-                
-            </div> -->
-            <!-- <div class="col-4">
-                <div class="video-compare-container" style="width: 100%">
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source data-src="dowm/ball.mp4" type="video/mp4"></source>
-                    </video>
-                    <h6 class="caption">There is a rugby ball, volleyball and crystal ball</h6>
-                </div>
-                
-            </div> -->
-            <!-- <div class="col-4">
-                <div class="video-compare-container" style="width: 100%">
-                    <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
-                        <source data-src="dowm/bear.mp4" type="video/mp4"></source>
-                    </video>
-                    <h6 class="caption">A bear in a bowler hat pushing a cart</h6>
-                </div>
-                
-            </div> -->
             <div class="col-4">
                 <div class="video-compare-container" style="width: 100%">
                     <video class="video lazy" loop playsinline autoplay muted style="width: 100%">
