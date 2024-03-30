@@ -1,7 +1,3 @@
-// From https://dorverbin.github.io/refnerf/.
-// This is based on: http://thenewcode.com/364/Interactive-Before-and-After-Video-Comparison-in-HTML5-Canvas
-// With additional modifications based on: https://jsfiddle.net/7sk5k4gp/13/
-
 function playVids(videoId) {
     var videoMerge = document.getElementById(videoId + "Merge");
     var vid = document.getElementById(videoId);
